@@ -1,4 +1,4 @@
-### ChromaDB的使用
+### ChromaDB的使用（test文本数据集）
 
 import chromadb
 from chromadb.config import Settings
