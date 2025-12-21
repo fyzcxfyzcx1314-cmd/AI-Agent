@@ -1,6 +1,6 @@
 # 安装gradio：pip install gradio
 from openai import OpenAI
-import gradio as gr  # python中的写界面的包
+import gradio as gr  # type: ignore # python中的写界面的包
 
 import os
 

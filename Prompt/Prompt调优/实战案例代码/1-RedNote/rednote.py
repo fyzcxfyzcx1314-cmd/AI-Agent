@@ -57,7 +57,7 @@ def get_completion(user_prompt):
                     base_url="https://dashscope.aliyuncs.com/compatible-mode/v1")
 
     response = client.chat.completions.create(
-        model='qwen-plus-2025-07-14',
+        model='qwen3-max',
         messages=messages,
         temperature=0.7
     )
